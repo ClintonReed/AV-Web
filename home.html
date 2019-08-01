@@ -25,6 +25,8 @@
     Your browser does not support the audio element.
   </audio>
 
+  <!--Navbar-->
+
   <!--Video Background and Welcome Animation-->
 
   <div class="video-header wrap">
@@ -34,7 +36,7 @@
     <div class="header-overlay">
       <div class="header-content">
         <div class="center">
-          <ul onmouseover="hover.play()">
+          <ul onmouseover="hover.play()" onclick="location.href='about.html';" style="cursor:pointer;">
             <li>W</li>
             <li>E</li>
             <li>L</li>
@@ -48,14 +50,14 @@
     </div>
 
 
-    <!--JS-->
+    <!--Button Script-->
+
     <script>
       var hover = new Audio();
       hover.src = "snd/bass drop.mp3";
     </script>
 
-
-    </script>
+    <!--JQuery / JS-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
